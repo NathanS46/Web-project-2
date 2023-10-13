@@ -24,20 +24,25 @@ Date last modified: October 17th 2023 -->
         margin-right: 100;
         width: 50%;
       }
+      li {
+        float: left;
+      }
     </style>
   </head>
   <body>
-    <img
-      src="logo.jpg"
-      alt="The maple leaf foods logo"
-      width="100"
-      height="100"
-      inline
-    />
     <link rel="stylesheet" href="css.css" />
     <nav>
       <ul style="list-style: none">
-        <li style="display: inline" id="nav-link">
+        <li>
+          <img
+            src="logo.jpg"
+            alt="The maple leaf foods logo"
+            width="100"
+            height="100"
+            style="display: inline"
+          />
+        </li>
+        <li style="display: inline" id="nav-link" style="padding-left: 1000px">
           <a href="index.html">Home</a>
         </li>
         <li style="display: inline" id="nav-link">
@@ -53,9 +58,9 @@ Date last modified: October 17th 2023 -->
           <a href=".html">Careers</a>
         </li>
       </ul>
+      <hr />
     </nav>
 
-    <hr />
     <p>
       <span
         style="color: rgb(35, 35, 119); font-size: 50px; padding-left: 150px"
