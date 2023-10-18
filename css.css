@@ -11,3 +11,8 @@ a {
   color: blue;
   text-decoration: none;
 }
+a:hover {
+  color: white;
+  padding: 50px;
+  background-color: blue;
+}
